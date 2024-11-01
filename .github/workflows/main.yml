@@ -11,9 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install Packages
-        run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt
+        run: make install
       - name: Format
         run: black *.py --line-length 88
       - name: Data Processing
