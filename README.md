@@ -1,2 +1,2 @@
 # Makefile-Actions
-Use Makefile with GiHub actions
+Use Makefile with GitHub Actions
